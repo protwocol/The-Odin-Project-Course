@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="rps.js" defer></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <div id="menu">
+                <button id="menu__button" type="button">PLAY</button>
+            </div>
+            <div class="score">
+                <p class="score__text score__text--computer">
+                    Computer: <span id="computer-score">0</span>
+                </p>
+                <p class="score__text score__text--player">
+                    Player: <span id="player-score">0</span>
+                </p>
+            </div>
+            <div class="computer">
+                <p>Computer</p>
+                <h3 id="computer-choice">...</h3>
+            </div>
+            <div class="card">
+                <button class="card__button card__button--rock" type="button">
+                    ROCK
+                </button>
+                <button class="card__button card__button--paper" type="button">
+                    PAPER
+                </button>
+                <button
+                    class="card__button card__button--scissors"
+                    type="button"
+                >
+                    SCISSORS
+                </button>
+            </div>
+        </div>
+    </body>
+</html>

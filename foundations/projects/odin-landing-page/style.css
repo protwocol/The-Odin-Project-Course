@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* header */
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 300px;
+}
+
+.header__logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 30px;
+}
+
+.header__nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* main hero */
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    flex: auto;
+    height: 400px;
+    padding: 100px 300px;
+    gap: 30px;
+}
+
+.hero__content {
+    flex: 1;
+}
+
+.hero__heading {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero__description {
+    color: #e5e7eb;
+    font-size: 18px;   
+}
+
+.hero__btn {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.hero__image__container {
+    background-color: grey; 
+    flex: 1;
+}
+
+/* main information */
+
+.info {
+    height: 400px;
+    padding: 40px 300px;
+}
+
+.info__content {
+    text-align: center;    
+}
+
+.info__blocks__container {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.info__block {
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.info__img {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+/* quote */ 
+
+.quote {
+    height: 400px;
+    padding: 40px 300px;
+    background-color: #e5e7e5;
+    display: flex;
+    align-items: center;
+}
+
+.quote__text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote__author {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* cta */
+
+.cta {
+    padding: 100px 300px;
+}
+
+.cta__content {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 5px;
+    color: white;
+}
+
+.cta__content--left, .cta__content--right {
+    flex: 1;
+}
+
+.cta__content--right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cta__btn {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 40px;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* footer */
+
+.footer {
+    padding: 20px 300px;
+    color: white;
+    background-color: #1f2937;
+    text-align: center;
+}

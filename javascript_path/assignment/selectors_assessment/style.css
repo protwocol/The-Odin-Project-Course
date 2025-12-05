@@ -1,38 +1,93 @@
-/* default 1, 2 and 4 */
 body {
   font: 1.2em / 1.5 sans-serif;
 }
 
 /* ======================================================= task 1 */
-
-
-/* ======================================================= task 2 */
-
-
-/* ======================================================= task 3 */
-/* body {
-  font: 1.2em / 1.5 sans-serif;
-}
-* {
-  box-sizing: border-box;
+/* h1 {
+  color: blue;
 }
 
-table {
-  border-collapse: collapse;
-  width: 300px;
+h2 {
+  background-color: blue;
+  color: white;
 }
 
-td,
-th {
-  padding: 0.2em;
-  text-align: left;
+span {
+  font-size: 200%;
 } */
 
+/* ======================================================= task 2 */
+/* #special { */
+/*   background-color: yellow; */
+/* } */
+/**/
+/* .alert { */
+/*   border: 2px solid grey; */
+/**/
+/*   &.stop { */
+/*     background-color: red; */
+/*   } */
+/**/
+/*   &.go { */
+/*     background-color: green; */
+/*   } */
+/* } */
+
+/* ======================================================= task 3 */
+/* * { */
+/*   box-sizing: border-box; */
+/* } */
+/**/
+/* table { */
+/*   border-collapse: collapse; */
+/*   width: 300px; */
+/* } */
+/**/
+/* td, */
+/* th { */
+/*   padding: 0.2em; */
+/*   text-align: left; */
+/* } */
+/**/
+/* a { */
+/*   &:link { */
+/*     color: orange; */
+/*   } */
+/**/
+/*   &:visited { */
+/*     color: green; */
+/*   } */
+/**/
+/*   &:hover { */
+/*     text-decoration: none; */
+/*   } */
+/* } */
+/**/
+/* .container p:first-child { */
+/*   font-size: 150%; */
+/* } */
+/**/
+/* .container p:first-child:first-line { */
+/*   color: red; */
+/* } */
+/**/
+/* table > tbody > tr:nth-child(even) { */
+/*   background-color: #333333; */
+/*   color: white; */
+/* } */
 
 /* ======================================================= task 4 */
-/* body {
-  font: 1.2em / 1.5 sans-serif;
-}
+/**/
+/* h2 + p { */
+/*   color: red; */
+/* } */
+/**/
+/* .list > li { */
+/*   list-style: none; */
+/*   border-bottom: 1px solid grey; */
+/* } */
+
+/* ======================================================= task 5 */
 
 ul {
   list-style: none;
@@ -51,9 +106,17 @@ a {
 
 a {
   border: 5px solid grey;
-} */
 
-/* Add styles here */
+  &[title] {
+    border-color: pink;
+  }
 
+  &[href*="contact"] {
+    border-color: orange;
+  }
 
-/* ======================================================= task 5 */
+  &[href^="https"] {
+    border-color: green;
+  }
+}
+
